@@ -7,7 +7,7 @@
     box-sizing: border-box;   
     font-family: 'Akshar', sans-serif;
     scroll-behavior: smooth;
-    
+    overflow-x: hidden;   
 }
 
 header{
@@ -78,27 +78,40 @@ section{
 .container-content{
     display: flex;
     justify-content: space-evenly;
+    
 }
 .container .me-icon{
     margin-top: -10px;
+    transform: translateX(190%);
+    animation: slideRightTo 0.7s 0.2s forwards ease;
 }
 .container-title{
+    overflow-y:hidden ;
     margin-top: 30px;
+    
 }
 
 .container-title h4{
     margin-bottom: 10px;
+    transform: translateY(170%);
+    animation: slideTitleUp 0.7s 0.1s forwards ease;
 }
 .container-title h1{
     font-size: 50pt;
     font-family: 'Akshar', sans-serif;
+    transform: translateY(270%);
+    animation: slideTitleUp 0.9s 0.2s forwards ease;
+}
+.container-title h3{
+    transform: translateY(170%);
+    animation: slideTitleUp 0.7s 0.3s forwards ease;
+}
+.container-title p{
+    transform: translateY(170%);
+    animation: slideTitleUp 0.7s 0.4s forwards ease;
 }
 
-.container-title p {
-    display: inline;
-}
-
-input{
+#hire-me-btn{
     width: 150px;
     border-radius: 20px;
     border-style: none;
@@ -108,11 +121,12 @@ input{
     display: block;
     color: white;
     margin-top: 20px;
-    transition: 0.2s ease-in-out;
     letter-spacing: 3px;
+    transform: translateY(170%);
+    animation: slideTitleUp 1s 0.1s forwards ease;
 }
 
-input:hover{
+#hire-me-btn:hover{
     cursor: pointer;
     background: rgb(153,34,195);
 }
@@ -131,10 +145,10 @@ input:hover{
 
 .content{
     width: 80%;
-    height: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    overflow-y: hidden;
 }
 .container-content-2 .content .text-content{
     width: 250px;
@@ -173,6 +187,8 @@ input:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 90%;
+    
 }
 
 .mini-container{
@@ -182,10 +198,28 @@ input:hover{
     margin-left: 90px;
     border-radius: 20px;
     transition: 0.3s ease-in-out;
+    
 }
 
 .mini-container:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    filter: blur(0px);
+}
+
+.button{
+    opacity: 0;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 20px;
+    border-style: none;
+    font-size: large;
+    height: 50px;
+    background-color: rgb(126, 126, 126);
+    display: block;
+    color: white;
+    letter-spacing: 3px;
+    transition: 0.2s;
+
 }
 
 .mini-container:nth-child(1){
@@ -207,4 +241,34 @@ input:hover{
 
 .four{
     background-color: black;
+}
+
+@keyframes scaleUpTitle{
+    to {
+        transform: translate(-50%,-50%) scaleX(1);
+    }
+}
+
+@keyframes slideTitleUp {
+    to{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideUp {
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes slideRightTo{
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeInUp {
+    to{
+        opacity: 1;
+        transform:translateY(0) ;
+    }
 }
