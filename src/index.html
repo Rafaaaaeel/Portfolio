@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="css/style.css">-->
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="">
     <title>Document</title>
 </head>
 <body>
@@ -13,46 +17,46 @@
     <header>
         <nav>
             <ul>
-                <li><a class="cool_link" href="#content-2">Home</a></li>
-                <li><a class="cool_link" href="">About</a></li>
-                <li><a class="cool_link" href="">Portfolio</a></li>
-                <li><a class="cool_link" href="">Contact me</a></li>
+                <li><a class="cool_link" href="#home">Home</a></li>
+                <li><a class="cool_link" href="#About">About</a></li>
+                <li><a class="cool_link" href="#Portfolio">Portfolio</a></li>
+                <li><a class="cool_link" href="#contactme">Contact me</a></li>
             </ul>
         </nav>
     </header>
+
     <div class="container">
-        <section class="one">
+
+        <section id="home" class="home">
             <div class="container-content">
-                <div class="container-title" >
+                <div class="container-info" >
                     <h4>HI THERE 👋🏻 I'M</h4>
                     <h1>Rafael</h1>
                     <h1>Oliveira Pires</h1>
-                    <h3">iOS Developer</h3>
+                    <h3>iOS Developer</h3>
                     <p>I'm a iOS developer with skills based in Swift.</p>
-                    <input id="hire-me-btn" type="submit" value="Hire me" >
+                    <input class="button" id="hire-me-btn" type="submit" value="Hire me" >
                 </div>
                 <div>
-                    <img class="me-icon" src="img/i-icon.png" alt="">
+                    <img class="me-icon" src="img/Home/i-icon.png" alt="">
                 </div>
             </div>
-           
         </section>
 
-        <section class="two">
+        <section id="About" class="about">
             <div class="container-content-2">
-                <div class="content">
-                    <img class="me-img" src="img/me-photo.jpeg" alt="">
+                <div class="container-info-2">
+                    <img class="me-img" src="img/About/me-photo.jpeg" alt="">
                     <div class="text-content">
                         <span>Who am I</span>
                         <h2>About Me</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex eaque hic veniam rerum consectetur sapiente quos cumque, minus sint fugiat eos perspiciatis cum. Vitae quibusdam maxime enim dignissimos soluta nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis dolorum consectetur enim, minima, reiciendis, nemo totam commodi quidem suscipit saepe rerum? Sunt ipsa cumque eius itaque aperiam, corrupti fugiat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur illum sed nesciunt natus ratione minus dolorem sunt mollitia illo, perspiciatis fugit officia ut aperiam repellendus hic, quas, iste ullam est!</p>
                     </div>
-                    
                 </div>
             </div>
         </section>
 
-        <section class="three">
+        <section id="Portfolio" class="portfolio">
             <div class="content-3">
                 <div class="mini-container">
                     <input class="button" type="submit">
@@ -66,10 +70,13 @@
             </div>
             
         </section>
-        <section id="here" class="four">
+
+        <section id="contactme" class="four">
             <h1>fourth page</h1>
         </section>
+
     </div>
+
     <script src="/src/js/functions.js"></script>
 </body>
 </html>

@@ -10,6 +10,6 @@ containerContent.forEach((e)=>{
 
     e.addEventListener("mouseout",()=>{
         
-        e.querySelector(".button").style.opacity = "0" 
+        e.querySelector(".button").style.opacity = "1" 
     })
 })

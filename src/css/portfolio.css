@@ -1,0 +1,42 @@
+
+.portfolio{
+    background-color: rgb(255, 255, 255);
+}
+
+.content-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+
+.mini-container{
+    width: 400px;
+    height: 600px;
+    margin-left: 90px;
+    background-color: blue;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.mini-container:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    filter: blur(2px);
+}
+
+.mini-container:nth-child(1){
+    background-image: url("/src/img/Portfolio/bankey.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mini-container:nth-child(2){
+    background-image: url("/src/img/Portfolio/opoy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.mini-container:nth-child(3){
+    background-image: url("/src/img/Portfolio/cardapio.jpg");
+    background-size: cover;
+    background-position: center;
+}
