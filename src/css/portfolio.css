@@ -3,25 +3,30 @@
     background-color: rgb(255, 255, 255);
 }
 
+
 .content-3{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 90%;
+    width: 100%;
+    
 }
 
 .mini-container{
     width: 400px;
     height: 600px;
-    margin-left: 90px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: blue;
     border-radius: 20px;
     transition: 0.3s ease-in-out;
 }
 
+
 .mini-container:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    filter: blur(2px);
+    cursor: pointer;
 }
 
 .mini-container:nth-child(1){

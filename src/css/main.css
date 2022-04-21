@@ -14,7 +14,6 @@ header{
     position: absolute;
     width: 100%;
     height: 100px;
-
     text-align: center;
 }
 
@@ -63,7 +62,6 @@ section{
     align-items: center;
     color: white;
     scroll-snap-align: start;
-    
 }
 
 .container{
@@ -83,7 +81,6 @@ section{
     color: white;
     margin-top: 20px;
     letter-spacing: 3px;
-
 }
 
 .button:hover{
@@ -91,38 +88,7 @@ section{
     background: rgb(153,34,195);
 }
 
-
-
 .four{
     background-color: black;
 }
 
-@keyframes scaleUpTitle{
-    to {
-        transform: translate(-50%,-50%) scaleX(1);
-    }
-}
-
-@keyframes slideTitleUp {
-    to{
-        transform: translateY(0%);
-    }
-}
-
-@keyframes slideUp {
-    100%{
-        transform: translateY(0);
-    }
-}
-@keyframes slideRightTo{
-    to{
-        transform: translateX(0%);
-    }
-}
-
-@keyframes fadeInUp {
-    to{
-        opacity: 1;
-        transform:translateY(0) ;
-    }
-}

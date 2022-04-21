@@ -1,0 +1,35 @@
+@keyframes scaleUpTitle{
+    to {
+        transform: translate(-50%,-50%) scaleX(1);
+    }
+}
+
+@keyframes slideTitleUp {
+    to{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideUp {
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes slideRightTo{
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeInUp {
+    to{
+        opacity: 1;
+        transform:translateY(0) ;
+    }
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 0 0 25px #5ddcff, 0 0 25px #4c00e2;
+    }
+}
