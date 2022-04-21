@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Akshar', sans-serif;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    border: 3px solid #3c67e3;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.button:hover{
+    animation: pulsate 1s ease-in-out;
+}
