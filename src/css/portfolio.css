@@ -78,3 +78,8 @@
     margin: auto;
     animation: move-wheel 1s linear infinite;
 }
+
+@media (max-width: 1600px){
+
+
+}

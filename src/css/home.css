@@ -70,4 +70,39 @@
     .container-content img{
        display: none;
     }
+
+    .container-info{
+        margin-top: 0px;
+        
+    }
+
+    .container-info p{
+        width: 200px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .container-content{
+        width: 220px;
+        margin-left: 0px;
+    }
+
+
+    .container-info h4{
+        text-align: center;
+
+    }
+
+    .container-info h1{
+        text-align: center;
+
+    }
+
+    .container-info h3{
+        text-align: center;    
+    }
+
+    #hire-me-btn{
+        margin-left: 37px;
+    }
 }
