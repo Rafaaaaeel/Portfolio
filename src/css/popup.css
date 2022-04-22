@@ -77,7 +77,7 @@
 .pop-up-info img{
     margin-top: 30px;
     border-radius: 15px;
-    width: 200px;
+    width: 150px;
 }
 
 .close-popup-opoy{
@@ -122,7 +122,7 @@
 .pop-up-info{
     width: 50%;
     margin-left: 80px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .pop-up-info h1{
@@ -166,3 +166,42 @@
     right: 400px;
 }
 
+#cel-link{
+    display: none;
+}
+
+#cel-link a{
+    color: blue;
+}
+
+@media (max-width: 800px){
+
+    .mouse-div{
+        display: none;
+    }
+
+    .gallery{
+       display: none;
+    }
+
+    .popup-box{
+        width: 90%;
+        height: 70vh;
+        font-size: 10pt;
+    }
+
+    .pop-up-info{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .pop-up-info img{
+        display: none;
+    }
+
+    #cel-link{
+        display: initial;
+    }
+    
+}
