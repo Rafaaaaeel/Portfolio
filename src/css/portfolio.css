@@ -23,6 +23,20 @@
     transition: 0.3s ease-in-out;
 }
 
+/*
+.mini-container{
+    display: grid;
+    width: 400px;
+    height: 600px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-right: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+*/
 
 .mini-container:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -44,4 +58,23 @@
     background-image: url("/src/img/Portfolio/cardapio.jpg");
     background-size: cover;
     background-position: center;
+}
+
+
+.mouse{
+    width: 25px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+}
+
+.mouse-wheel{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    animation: move-wheel 1s linear infinite;
 }

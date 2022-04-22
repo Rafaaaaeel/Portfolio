@@ -7,12 +7,16 @@
     display: flex;
     justify-content: space-evenly;
     
+    /*animation: revealTexts .9s forwards;*/
+    
 }
 
 .container-content img{
     margin-top: -10px;
-    transform: translateX(190%);
+    
     animation: slideRightTo 0.7s 0.2s forwards ease;
+    transform: translateX(190%);
+    opacity: 0;
 }
 
 .container-info{
@@ -23,29 +27,42 @@
 
 .container-info h4{
     margin-bottom: 10px;
-    transform: translateY(170%);
+    animation-delay: .175s;
     animation: slideTitleUp 0.7s 0.1s forwards ease;
+    transform: translateY(170%);
+    opacity: 0;
+    
 }
 
 .container-info h1{
     font-size: 50pt;
     font-family: 'Akshar', sans-serif;
-    transform: translateY(270%);
+    animation-delay: .25s;
     animation: slideTitleUp 0.9s 0.2s forwards ease;
+    transform: translateY(270%);
+    opacity: 0;
+    
 }
 
 .container-info h3{
-    transform: translateY(170%);
+    
     animation: slideTitleUp 0.7s 0.3s forwards ease;
+    transform: translateY(170%);
+    opacity: 0;
+    
 }
 
 .container-info p{
-    transform: translateY(170%);
+    
     animation: slideTitleUp 0.7s 0.4s forwards ease;
+    transform: translateY(170%);
+    opacity: 0;
 }
 
 #hire-me-btn{
-    transform: translateY(170%);
+    
     animation: slideTitleUp 1s 0.1s forwards ease;
+    transform: translateY(170%);
+    opacity: 0;
 }
 

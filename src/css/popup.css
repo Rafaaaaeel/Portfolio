@@ -75,7 +75,7 @@
 }
 
 .pop-up-info img{
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 15px;
     width: 200px;
 }
@@ -126,7 +126,16 @@
 }
 
 .pop-up-info h1{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.pop-up-info h4{
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.pop-up-info h2{
+    margin-bottom: 10px;
 }
 
 .gallery{
@@ -149,3 +158,11 @@
     position: sticky;
     top: 0;
 }
+
+.mouse-div{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    right: 400px;
+}
+

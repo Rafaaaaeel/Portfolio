@@ -40,6 +40,7 @@ nav li a{
     font-size: 18pt;
 }
 
+
 .cool_link::after{
     position: relative;
     top: 1px;
@@ -85,7 +86,7 @@ section{
 
 .button:hover{
     cursor: pointer;
-    background: rgb(153,34,195);
+    background: #0560fe;
 }
 
 .four{

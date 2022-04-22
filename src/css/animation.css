@@ -7,6 +7,7 @@
 @keyframes slideTitleUp {
     to{
         transform: translateY(0%);
+        opacity: 1;
     }
 }
 
@@ -18,6 +19,7 @@
 @keyframes slideRightTo{
     to{
         transform: translateX(0%);
+        opacity: 1;
     }
 }
 
@@ -31,5 +33,27 @@
 @keyframes pulsate {
     0%{
         box-shadow: 0 0 25px #5ddcff, 0 0 25px #4c00e2;
+    }
+}
+
+@keyframes revealTexts {
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes move-wheel {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(1rem);
     }
 }
