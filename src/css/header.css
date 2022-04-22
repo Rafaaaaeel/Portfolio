@@ -60,3 +60,10 @@
     background-color: transparent;
     outline: none;
 }
+
+
+@media (max-width: 800px){
+    .nav-bar{
+       display: none;
+    }
+}

@@ -7,6 +7,8 @@
     width: 80%;
     height: 80%;
     border-radius: 40px;
+    overflow-y: hidden;
+    margin-left: 100px;
 }
 
 .container-info-2{
@@ -18,29 +20,44 @@
 }
 .container-content-2 .container-info-2 .text-content{
     width: 250px;
-    margin-top: 130px;
+    margin-top: 50px;
+    overflow-y: hidden;
 }
 
 .container-content-2 .container-info-2 .text-content span{
     display: block;
     width: 250px;
     font-size: 15pt;
-    margin-right: 400px;
+    margin-right: 370px;
+    overflow-y: hidden;
     
 }
 .container-content-2 .container-info-2 .text-content h2{
     width: 250px;
     margin-bottom: 100px;
-    margin-right: 400px;
+    margin-right: 370px;
     font-size: 23pt;
+    overflow-y: hidden;
 }
 .container-content-2 .container-info-2 .text-content p{
     margin-top: -60px;
+    overflow-y: hidden;
 }
 
-.container-content-2 .container-info-2 img{
-    width: 450px;
+.container-content-2 .container-info-2 .me-img{
+    width: 250px;
+    
     height: 550px;
-    margin-top: 140px;
+    margin-top: 10px;
     border-radius: 40px;
+    background-image: url("/src/img/About/me-photo.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media (max-width: 800px){
+    .me-img{
+        display: none;
+    }
 }

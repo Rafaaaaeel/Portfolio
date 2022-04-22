@@ -6,7 +6,7 @@
 .container-content{
     display: flex;
     justify-content: space-evenly;
-    
+    margin-left: 50px;
     /*animation: revealTexts .9s forwards;*/
     
 }
@@ -66,3 +66,8 @@
     opacity: 0;
 }
 
+@media (max-width: 800px){
+    .container-content img{
+       display: none;
+    }
+}
