@@ -62,7 +62,8 @@
 
 @media (max-width: 600px){
     .content-3{
-        display: table;
+        display: inline-block;
+        text-align: center;
         height: 100%;
         width: 100%;
     

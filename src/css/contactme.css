@@ -1,0 +1,28 @@
+
+
+.container-content-4{
+    
+   width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content-4 a{
+    display: block;
+    width: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-filter: opacity(.4);
+  filter: opacity(.4); 
+}
+
+.container-content-4 a:hover{
+    -webkit-filter: none;
+     filter: none;
+}
+
+.container-content-4 a img{
+    width: 60px;
+    
+}
+

@@ -84,8 +84,8 @@
     position: absolute;
     z-index: 1;
     width: 60px;
-    top: 5px;
-    right: 5px;
+    top: 20px;
+    right: -10px;
     transition: 0.3s ease;
     transition-property: opacity;
     -webkit-transition-property: opacity;
@@ -95,8 +95,8 @@
     position: absolute;
     z-index: 1;
     width: 60px;
-    top: 5px;
-    right: 5px;
+    top: 20px;
+    right: -10px;
     transition: 0.3s ease;
     transition-property: opacity;
     -webkit-transition-property: opacity;
@@ -106,8 +106,8 @@
     position: absolute;
     z-index: 1;
     width: 60px;
-    top: 5px;
-    right: 5px;
+    top: 20px;
+    right: -10px;
     transition: 0.3s ease;
     transition-property: opacity;
     -webkit-transition-property: opacity;
@@ -189,6 +189,36 @@
     }
 }
 
+@media (max-width: 1920px){
+    .mouse-div{
+        right: 400px;
+    }
+}
+
+
+@media (max-width: 1440px){
+    .mouse-div{
+        right: 370px;
+    }
+}
+
+@media (max-width: 1680px){
+    .pop-up-info img{
+        width: 120px;
+    }
+}
+
+
+
+@media (max-width: 1366px){
+    .mouse-div{
+        right: 360px;
+    }
+
+    .pop-up-info img{
+        width: 100px;
+    }
+}
 
 @media (max-width: 800px){
 
