@@ -30,8 +30,9 @@ nav li {
 }
 
 a:hover {
-    color: rgb(34, 117, 195);
+
     transition: 0.2s ease-in-out;
+    color: white;
 }
 
 nav li a{

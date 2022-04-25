@@ -11,12 +11,18 @@
     
 }
 
-.container-content img{
-    margin-top: -10px;
-    
+.container-content a{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
     animation: slideRightTo 0.7s 0.2s forwards ease;
     transform: translateX(190%);
     opacity: 0;
+}
+
+.container-content a span{
+    display: inline-block;
+    margin-top: 13px;
 }
 
 .container-info{
